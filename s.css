@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #252B42
+    ;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.consultation h1 {
+    color: white; }
+    .consultation h2 {
+        color: white; }
+        .consultation p {
+            color: white; }
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #252B42;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+}
+
+.nav-menu li {
+    margin-left: 20px;
+    color: #252B42;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.hero-section {
+    background: linear-gradient(to right, white, white) no-repeat center/cover;
+    color: white;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.hero-content h2 {
+    font-size: 48px;
+    margin-bottom: 10px;
+    color: #252B42;
+}
+
+.hero-content p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color:  #252B42;
+}
+
+.hero-buttons .btn {
+    padding: 10px 20px;
+    border: none;
+    background: #784F33;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 10px;
+    transition: background 0.3s ease;
+}
+
+.hero-buttons .btn.secondary {
+    background: transparent;
+    border: 2px solid #784F33;
+    color: #784F33;
+}
+
+.hero-buttons .btn:hover {
+    background: #e67e22;
+}
+
+.client-matters {
+    padding: 50px 0;
+    text-align: center;
+    background: #f4f4f4;
+}
+
+.client-matters h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.practice-areas {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.practice-item {
+    background: #fff;
+    padding: 20px;
+    margin: 10px;
+    flex-basis: 30%;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.who-we-are {
+    padding: 50px 0;
+    background: #eaeaea;
+}
+
+.who-we-are h2 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-image img {
+    width: 400px;  
+    height: 400px; 
+    object-fit: cover;
+    border-radius: 0; }
+
+.about-text {
+    max-width: 600px;
+}
+
+.testimonials {
+    background: #333;
+    color: white;
+    padding: 50px 0;
+}
+
+.testimonials h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.testimonial-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.testimonial-item {
+    background: #444;
+    padding: 20px;
+    margin: 10px;
+    flex-basis: 30%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.our-attorneys {
+    padding: 50px 0;
+    text-align: center;
+    background: #f4f4f4;
+}
+
+.attorney-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.attorney-item {
+    text-align: center;
+    margin: 20px;
+}
+
+.attorney-item img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.consultation {
+    background: #252B42;
+    padding: 50px 0;
+}
+
+.consultation h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input, form select, form button {
+    padding: 10px;
+    margin: 10px;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background: #f39c12;
+    color: white;
+    border: none;
+    transition: background 0.3s ease;
+}
+
+form button:hover {
+    background: #e67e22;
+}
+
+footer {
+    background: white;
+    color: rgba(46, 36, 197, 0.178);
+    text-align: center;
+    padding: 20px 0;
+}
+.form-image-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-image-container form {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.form-image-container img {
+    max-width: 300px;
+    height: auto;
+}  
+.form-image-container {
+    display: flex;               
+    align-items: flex-start;     
+    justify-content: space-between; 
+}
+
+.form-image-container img {
+    max-width: 200px;           
+    margin-right: 20px;         
+    height: auto;                
+}
+
+.form-image-container form {
+    flex: 1;                     
+}
+.practice-areas {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px; 
+    justify-content: space-between; 
+}
+
+.practice-item {
+    display: flex; 
+    align-items: center; 
+    width: 45%; 
+}
+
+.practice-item img {
+    margin-right: 10px; 
+    width: 40px; 
+    height: auto;
+}
+.image-text-container img {
+    margin-right: 10px;
+    width: 25px; 
+    height: auto; 
+}
+.header-container {
+    display: flex;
+    align-items: center; 
+    gap: 10px;
+}
+
+.header-container img {
+    max-width: 400px; 
+    height: auto; 
+}
+.section-one .button-container {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.section-two .button-container {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
